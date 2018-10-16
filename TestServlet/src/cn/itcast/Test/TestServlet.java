@@ -18,7 +18,7 @@ public class TestServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String id=request.getParameter("id");
-		System.out.println("响应到了");
+		System.out.println("响应到了456");
 	}
 
 	/**
